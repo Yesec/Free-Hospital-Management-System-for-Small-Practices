@@ -7,7 +7,7 @@
 - Vendor of Product: Sourcecodester
 
 ## Description
-SourceCodester Free Hospital Management System for Small Practices 1.0 has a SQL Injection vulnerability in /vm/doctor/doctors.php. Affected is an unknown function of the file `/vm/doctor/doctors.php?action=view&id=2`,The manipulation of the argument `id` leads to SQL inject.
+SourceCodester Free Hospital Management System for Small Practices 1.0 has a SQL Injection vulnerability in /vm/doctor/doctors.php. Affected is file `/vm/doctor/doctors.php?action=view&id=2`,The manipulation of the argument `id` leads to SQL inject.
 
 ## Vulnerability Code
 - /vm/doctor/doctors.php
